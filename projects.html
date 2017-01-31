@@ -6,7 +6,9 @@ title: Ian Tracey - Projects
 <p>Some of my favorites projects in no particular order.</p>
 
 <ul class="projects list">
-  <li><a href='#'><h4>Marquee</h4></a>
-    <p class="desc">A dashboard to manage your commit history</p>
+  {% for project in site.data.projects %}
+  <li><a href='{{ project.link }}'><h4>{{ project.name }}</h4></a>
+    <p class="desc">{{ project.description }}</p>
   </li>
+  {% endfor %}
 <ul>
