@@ -38,12 +38,24 @@
     <div class="row">
       <div class="eight columns offset-by-two" style="margin-top: 10%">
         <h2 class="header"><a href="/">Ian Tracey</a></h2>
+
           <ul class="menu">
             <li><a href="/projects.html">Projects</a></li>
             <li><a href="https://medium.com/@iantracey">Writing</a></li>
-            <li><a href="/press.html">Press</a></li>
+            <li><a href="/hackathons.html">Hackathons</a></li>
           </ul>
           {{ content }}
+        </div>
+      </div>
+      <div class="row">
+      <div class="eight columns offset-by-two">
+      <smaLl>Made with <3 from Tucson, AZ</small>
+
+        <ul class="menu social">
+        {% for outlet in site.data.social %}
+        <li><a href={{outlet.link}}><i class={{outlet.icon}}></i></a></li>
+        {% endfor %}
+        <ul>
         </div>
       </div>
   </div>
