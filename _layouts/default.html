@@ -1,66 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  {% include head.html %}
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <body>
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h3>
+        <nav class="masthead-navigation">
+          <a href="/about">About</a>
+          <a href="https://github.com/ianrtracey">Projects</a>
+          <a href="/writing">Writing</a>
+          <a href="/talks">Talks</a>
+          <a href="#">Now</a>
+        </nav>
+      </header>
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/skeleton-alerts.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/style.css">
+      <main>
+        {{ content }}
+      </main>
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+      <footer class="footer">
+        <small>Ian Tracey &copy; 2017</small>
+      </footer>
+    </div>
 
-</head>
-<body>
+    {% if site.analytics_id %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container animated fadeIn">
-    <div class="row">
-      <div class="eight columns offset-by-two" style="margin-top: 10%">
-        <h2 class="header"><a href="/">Ian Tracey</a></h2>
+          ga('create', 'UA-99568638-1', 'auto');
+          ga('send', 'pageview');
 
-          <ul class="menu">
-            <li><a href="/projects.html">Projects</a></li>
-            <li><a href="https://medium.com/@iantracey">Writing</a></li>
-            <li><a href="/hackathons.html">Hackathons</a></li>
-          </ul>
-          {{ content }}
-        </div>
-      </div>
-      <div class="row">
-      <div class="eight columns offset-by-two">
-      <smaLl>Made with <3 from Tucson, AZ</small>
-
-        <ul class="menu social">
-        {% for outlet in site.data.social %}
-        <li><a href={{outlet.link}}><i class={{outlet.icon}}></i></a></li>
-        {% endfor %}
-        <ul>
-        </div>
-      </div>
-  </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
+    </script>
+      {% endif %}
+  </body>
 </html>
