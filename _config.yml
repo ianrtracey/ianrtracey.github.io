@@ -31,6 +31,7 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
+excerpt_separator: "<!--more-->"
 
 # Gems
 gems:

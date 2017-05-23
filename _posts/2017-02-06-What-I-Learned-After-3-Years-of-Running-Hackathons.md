@@ -8,6 +8,7 @@ title: What I Learned After 3 Years of Running Hackathons
 
 It was January 15th, 2015, a cold winter morning in the center of the University of Pennsylvania campus — about 2300 miles from home. My friends and I had traveled from across the country (Arizona) to spend 36 hours coding non-stop fueled by nothing but stale coffee, Philly cheesesteaks and the occasional granola bar. *“How the hell did I get here?”*
 
+
 -----
 <img src="/assets/img/posts/pennapps.jpeg" />
 
