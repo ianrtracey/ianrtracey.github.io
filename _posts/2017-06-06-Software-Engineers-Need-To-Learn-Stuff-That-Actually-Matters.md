@@ -11,7 +11,7 @@ As a software engineer, I pride myself on building products that enrich the live
 
 In the tech industry, we often subject ourselves to [disrupt-o-mania](https://m.signalvnoise.com/reconsider-41adf356857f?gi=b5462f2a5702) where, similar to rewriting an outdated legacy codebase, we design systems in the aim of disrupting the status quo, destroying old industries and obliterating the old ways of doing things. Despite some of these disruptions being good and beneficial to a huge number of people - there are times where disruption is the irresponsible way to approach a problem.
 
-One time, when discussing the tech industry's role in people's lies, I had a non-technical friend tell me: *“I feel like tech has left some of us behind. I feel like it’s a secret club that I am not invited to.”*
+One time, when discussing the tech industry's role in people's lives, I had a non-technical friend tell me: *“I feel like tech has left some of us behind. I feel like it’s a secret club that I am not invited to.”*
 
 Software may be eating the world but software doesn’t rule the world. In our increasingly complex political and economic climate, it’s people who call the shots and those people need engineers who can make decisions and build systems with an understanding of how what they are building will affect the world around them.
 
@@ -23,4 +23,6 @@ A few months ago Greg Wilson at Third Bit announced his latest book, [*Stuff tha
 
 People deserve software that works for them and a tech industry that is intertwined with people in a deeper way than just smartphones in every pocket or Amazon echoes in every home. The world deserves software that helps build communities, provides accurate insights and empowers the minority rather than just the majority. The tech industry is no longer the underdog darling that it once was 20 years ago and it cannot afford to continue to take a detour around difficult challenges that involve human beings.
 
-Future software will be written by engineers who understand the state of the world, how their actions affect communities and how to make ethical decisions when faced with hard social challenges. Learning more about the world around us doesnt just make us better engineers but it makes us better people prepared for the rapid change and uncertainty of the future. I, for sure, want to be a part of that future. 
+Future software will be written by engineers who understand the state of the world, how their actions affect communities and how to make ethical decisions when faced with hard social challenges. Learning more about the world around us doesnt just make us better engineers but it makes us better people prepared for the rapid change and uncertainty of the future.
+
+I, for sure, want to be a part of that future. 
