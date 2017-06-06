@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               Ian Tracey
 tagline:             software+startups+coffee 
-url:                 http://getpoole.com
+url:                 https://ianrtracey.com
 paginate:            1
 baseurl:             ""
 
@@ -26,6 +26,8 @@ author:
   name:              Ian Tracey 
   url:               https://twitter.com/ianrtracey
   email:             ianrtracey@gmail.com
+  twitter:
+    username: ianrtracey
 
 # Custom vars
 version:             2.0.0
@@ -37,3 +39,4 @@ excerpt_separator: "<!--more-->"
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-seo-tag
