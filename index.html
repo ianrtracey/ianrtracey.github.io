@@ -3,33 +3,39 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-    {{ post.content | truncatewords: 200 }}
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        Read More
-      </a>
-  </article>
-  {% endfor %}
+<div class="f4 lh-copy avenir measure b">Hi There! I'm Ian and I am passionate about building software that enriches the lives of others.</div>
+<br>
+<div class="lh-copy georgia measure">
+I am a Software Engineer at <a class="link black dim b bg-light-yellow" href="https://www.atlassian.com/" target="_blank">Atlassian</a> in the San Francisco Bay Area where I am helping build out Atlassian's cloud platform.
+<br>
+<br>
+Previously, I designed cloud APIs and backend systems for drone operations, mapping and imagery platforms at <a class="link black dim b bg-light-yellow" href="https://latitudeengineering.com" target="_blank">Latitude</a>, I helped move money through the internet at <a class="link black dim b bg-light-yellow" href="https://www.braintreepayments.com/" target="_blank">Braintree</a> and I built an enterprise social network at <a class="link black dim b bg-light-yellow" href="http://www.cisco.com/" target="_blank">Cisco</a>.
+<br>
+<br>
+Besides writing code and designing systems, I love discovering great food and coffee, <a class="link black dim b bg-light-yellow" href="https://www.facebook.com/hackarizona" target="_blank">running hackathons</a>, spending (too much) time on Spotify, exploring new cities with friends and learning new tools and technology. When I am not in a Vim terminal you can also find me reading, writing or learning to sail.
+<br>
+<br>
+<div class="code lh-copy">
+<pre>
+<span class="blue">const</span> someMoreAboutMe = <span class="dark-pink">function</span>() {
+  <span class="dark-green">return</span> [
+    <a class="link black dim b bg-light-yellow" href="https://medium.com/@iantracey" target="_blank">'writing'</a>,
+    <a class="link black dim b bg-light-yellow" href="/talks">'talks'</a>,
+    <a class="link black dim b bg-light-yellow" href="https://github.com/ianrtracey/" target="_blank">'projects'</a>,
+  ];
+}
+</pre>
+</div>
+<div class="code lh-copy">
+<pre>
+<span class="blue">const</span> getInTouchWithMe = <span class="dark-pink">function</span>() {
+  <span class="dark-green">return</span> [
+    <a class="link black dim b bg-light-yellow" href="https://twitter.com/ianrtracey" target="_blank">'twitter'</a>,
+    <a class="link black dim b bg-light-yellow" href="https://www.linkedin.com/in/itracey/" target="_blank">'linkedin'</a>,
+    <a class="link black dim b bg-light-yellow" href="mailto:ianrtracey@gmail.com?Subject=Hey,%Ian!" target="_top">'email'</a>,
+  ];
+}
+</pre>
+</div>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>

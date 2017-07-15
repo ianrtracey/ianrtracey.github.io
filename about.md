@@ -1,21 +1,40 @@
 ---
 layout: page
-title: About
 ---
 
-<p class="message">
-Boston, MA -> Tucson, AZ -> Mountain View, CA
-</p>
-
-<img id="about-photo" src="/assets/img/about_pic.jpg" />
-
-I believe in the potential software has to shape how we work, live and play. I am obsessed with finding challenging problems and creating immense value out of the solutions.
-
-I work at <a href="http://latitudeengineering.com/">Latitude</a> where I design cloud APIs and backend systems for drone operations, mapping and imagery platforms. Previously I have worked on moving money through the internet at <a href="https://www.braintreepayments.com">Braintree</a> and an enterprise social network at <a href="http://www.cisco.com/">Cisco</a>.
-
-Besides writing code and designing systems, I love discovering great food and coffee, running hackathons, spending (too much) time on Spotify, exploring new cities with friends and learning new tools and technology.
-
-Feel free to reach out to me on <a href="https://twitter.com/ianrtracey">Twitter</a> or drop me an <a href="mailto:ianrtracey@gmail.com?Subject=Whats%20up%20Ian">email.
-
-You can also find me on <a href="https://github.com/ianrtracey">Github</a> or <a href="https://www.linkedin.com/in/itracey">Linkedin</a>.
+<div class="f4 lh-copy avenir measure b">Hi There! I'm Ian and I am passionate about building software that enriches the lives of others.</div>
+<br>
+<div class="lh-copy georgia measure">
+I am a Software Engineer at <a class="link black dim b bg-light-yellow" href="#">Atlassian</a> in the San Francisco Bay Area where I am helping build out Atlassian's cloud platform.
+<br>
+<br>
+Previously, I designed cloud APIs and backend systems for drone operations, mapping and imagery platforms at <a class="link black dim b bg-light-yellow" href="#">Latitude</a>, I helped move money through the internet at <a class="link black dim b bg-light-yellow" href="#">Braintree</a> and I built an enterprise social network at <a class="link black dim b bg-light-yellow" href="#">Cisco</a>.
+<br>
+<br>
+Besides writing code and designing systems, I love discovering great food and coffee, running hackathons, spending (too much) time on Spotify, exploring new cities with friends and learning new tools and technology. When I am not in a Vim terminal you can also find me reading, writing or learning to sail.
+<br>
+<br>
+<div class="code lh-copy">
+<pre>
+<span class="blue">const</span> someMoreAboutMe = <span class="dark-pink">function</span>() {
+  <span class="dark-green">return</span> [
+    <a class="link black dim b bg-light-yellow" href="https://medium.com/@iantracey" target="_blank">'writing'</a>,
+    <a class="link black dim b bg-light-yellow" href="/talks">'talks'</a>,
+    <a class="link black dim b bg-light-yellow" href="https://github.com/ianrtracey/" target="_blank">'projects'</a>,
+  ];
+}
+</pre>
+</div>
+<div class="code lh-copy">
+<pre>
+<span class="blue">const</span> getInTouchWithMe = <span class="dark-pink">function</span>() {
+  <span class="dark-green">return</span> [
+    <a class="link black dim b bg-light-yellow" href="https://twitter.com/ianrtracey" target="_blank">'twitter'</a>,
+    <a class="link black dim b bg-light-yellow" href="https://www.linkedin.com/in/itracey/" target="_blank">'linkedin'</a>,
+    <a class="link black dim b bg-light-yellow" href="mailto:ianrtracey@gmail.com?Subject=Hey,%Ian!" target="_top">'email'</a>,
+  ];
+}
+</pre>
+</div>
+</div>
 
