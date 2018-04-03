@@ -25,16 +25,5 @@ Besides writing code and designing systems, I love discovering great food and co
 }
 </pre>
 </div>
-<div class="code lh-copy">
-<pre>
-<span class="blue">const</span> getInTouchWithMe = <span class="dark-pink">function</span>() {
-  <span class="dark-green">return</span> [
-    <a class="link black dim b bg-light-yellow" href="https://twitter.com/ianrtracey" target="_blank">'twitter'</a>,
-    <a class="link black dim b bg-light-yellow" href="https://www.linkedin.com/in/itracey/" target="_blank">'linkedin'</a>,
-    <a class="link black dim b bg-light-yellow" href="mailto:ianrtracey@gmail.com?Subject=Hey,%Ian!" target="_top">'email'</a>,
-  ];
-}
-</pre>
-</div>
 </div>
 
