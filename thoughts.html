@@ -1,0 +1,15 @@
+---
+layout: page
+title: Thoughts
+---
+<div>
+    {% for post in site.posts %}
+        <dl class="lh-title pb2 pt2 mt0">
+            <dt class="f3 b hover-blue">
+                <a class="no-underline near-black hover-blue" href="{{post.url }}">{{post.title}}</a>
+            </dt>
+            <dd class="ml0 gray">{{ post.date | date: '%B %d, %Y' }}<dd>
+            </a>
+        </dl>
+    {% endfor %}
+</div> 

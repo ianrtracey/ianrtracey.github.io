@@ -4,8 +4,11 @@ title: Home
 ---
 
 {% for item in site.data.navigation %}
+  {% assign colors = 'blue,orange,blue,green,yellow,pink' | split: ',' %}
+  <div>
   <h3 class="f3 lh-copy">
-    <a class="near-black link" href="{{item.link}}" >{{item.title}}</a>
+    <a class="near-black link hover-{{colors[forloop.index()]}}" href="{{item.link}}" >{{item.title}}</a>
   </h3>
+  </div>
 {% endfor %}
 
