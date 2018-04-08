@@ -2,7 +2,7 @@
 layout: post
 title: What I Learned After 3 Years of Running Hackathons 
 ---
-<img src="/assets/img/posts/hackaz_header_img.jpeg" />
+<img class="w-100 br2" src="/assets/img/posts/hackaz_header_img.jpeg" />
 
 *Everything was completely black. My arm violently shook as metallic voices chattered beside my head. I opened my eyes to find a security guard towering over me talking into his radio. Shaking off my fatigue, I looked around to find myself sprawled out on the ground. I bolted up from the cold carpet discovering my three friends passed out on the ground next to me, fast asleep. The guard let out an exacerbated sigh and said “This area is closing now, y’all really need to leave”. I helped wake up the collective group and as we all climbed to our feet; shaking off sore bodies, dry mouths and bloodshot eyes.*
 
