@@ -9,10 +9,11 @@ layout: default
   {{ content }}
 </div>
 </article> -->
+<div class="mt5">
 <article>
-  <h3 class="f2 near-black measure-narrow mb0">{{ page.title }}</h3>
-  <time class="lh-copy gray" datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-  <div class="lh-copy">
+  <h3 class="f2 near-black measure">{{ page.title }}</h3>
+  <time class="lh-copy gray" datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: '%B %d, %Y' }}</time>
+  <div class="lh-copy measure near-black pt3">
     {{ content }}
   </div>
 </article>
@@ -30,3 +31,4 @@ layout: default
   </ul>
 </aside>
 {% endif %}
+</div>
